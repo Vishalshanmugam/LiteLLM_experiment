@@ -6,6 +6,8 @@ A lightweight command-line chatbot that uses only AI models via [OpenRouter](htt
 
 ## ✨ Features
 
+Working of LiteLLM using Open Router API key provider and the models it supports to bbe used for free without any subscription 
+
 - Chat with OpenRouter-hosted models like - free usage of API key:
   - `meta-llama/llama-3-8b-instruct` ✅
   - `mistralai/mistral-7b-instruct` ✅
@@ -74,7 +76,7 @@ litellm --model ollama/llama3 --host localhost --port 8000
 
 Run the Python script:
 ```bash
-python chat_with_llama3.py
+python chat.py # depends upon the python version in your system
 ```
 Sample interaction:
 ```bash
